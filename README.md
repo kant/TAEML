@@ -1,11 +1,11 @@
-# TAEML (Few-shot Classificaiton)
+# TAEML (Few-shot Classification)
 
 ### **CONTENT**
 > TAEML: Task-Adaptive Ensemble of Meta-Leaners for Few-shot Classification
 
 + Minseop Park(AITRICS), Saehoon Kim (AITRICS), Jungtaek Kim (POSTECH), Yanbin Liu (UTS), Seungjin Choi(POSTECH)
 
-<b> Update (December 12, 2018)</b> TensorFlow implementation of [TAEML: Task-Adaptive Ensemble of Meta-Learners for Few-Shot Classification](http://metalearning.ml/2018/papers/metalearn2018_paper22.pdf) which tackles the limitation of current meta-learning framework for few-shot classification, that the target tasks and the training tasks are sampled from the same task distribution. Our model efficiently solves this problem by training the model to putt the ensemble weights on the pre-trained meta-learners asscosiated with each task distribution.
+<b> Update (December 12, 2018)</b> TensorFlow implementation of [TAEML: Task-Adaptive Ensemble of Meta-Learners for Few-Shot Classification](http://metalearning.ml/2018/papers/metalearn2018_paper22.pdf) which tackles the limitation of current meta-learning framework for few-shot classification, that the target tasks and the training tasks are sampled from the same task distribution. Our model efficiently solves this problem by training the model to put the ensemble weights on the pre-trained meta-learners associated with each task distribution.
 
 ## Abstract
 Most of meta-learning methods assume that a set of tasks in the meta-training
@@ -45,7 +45,7 @@ $ cd datasets-serializer
 $ python read_datasets.py
 $ python pkl2dataset.py
 ```
-Then you get the datasets on the  directory.
+Then you get the datasets on the directory.
 
 ### Run the model
 1. Pretrain all of the meta-learners
@@ -73,7 +73,7 @@ $ python get_results.py
 # XAI Project
 
 ### **Project Name**
-> A machine learning and statistical inference framework for explainable artificial intelligence(의사결정 이유를 설명할 수 있는 인간 수준의 학습·추론 프레임워크 개발)
+> A machine learning and statistical inference framework for explainable artificial intelligence (의사결정 이유를 설명할 수 있는 인간 수준의 학습·추론 프레임워크 개발)
 ### **Managed by**
 > Ministry of Science and ICT/XAIC
 ### **Participated Affiliation**
